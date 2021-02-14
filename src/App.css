@@ -10,29 +10,6 @@ body {
 
 img { max-width: 100%; }
 
-/*LANDING PAGE*/
-header .landing-text h1 {
-  font-family: 'Major Mono Display', monospace;
-  font-size: 80px;
-  color:#fff;
-  text-align: left;
-  display: inline-block;
-  padding-top: 150px;
-  letter-spacing: -3px;
-}
-
-
-hr {
-  width: 1000px;
-  border-color: #d400ff;
-}
-
-span {
-  color: #fff;
-  font-family: 'Major Mono Display', monospace;
-  letter-spacing: -2px;
-}
-
 /*NAVIGATIOON BAR*/
 #navbar ul, #navbar li, #navbar a {
   margin: 0;
@@ -83,6 +60,52 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #d400ff; }
+
+
+/*LANDING PAGE*/
+header {
+  position: relative;
+  height: 800px;
+  min-height: 500px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+header::before{
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+header .landing-text h1 {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 90px;
+  color:#fff;
+  text-align: left;
+  display: inline-block;
+  padding-top: 150px;
+  letter-spacing: -6px;
+}
+
+
+hr {
+  width: 1000px;
+  border-color: #d400ff;
+}
+
+span {
+  color: #fff;
+  font-family: 'Major Mono Display', monospace;
+  letter-spacing: -2px;
+}
+
+
+/*ABOUT ME SECTION*/
+#about {
+  background-color: #d400ff;
+}
+
 
 /* MEDIA QUERIES AND RESPONSIVENESS CSS*/
 @media screen and (max-width: 1060px) {

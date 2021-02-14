@@ -12,12 +12,13 @@ img { max-width: 100%; }
 
 /*LANDING PAGE*/
 header .landing-text h1 {
-  font: 80px/1.1em 'cartograph_cfdemi_bold_italic', sans-serif;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 80px;
   color:#fff;
   text-align: left;
   display: inline-block;
   padding-top: 150px;
-  letter-spacing: -5px;
+  letter-spacing: -3px;
 }
 
 
@@ -28,7 +29,7 @@ hr {
 
 span {
   color: #fff;
-  font: 40px 'cartograph_cfdemi_bold_italic', sans-serif;
+  font-family: 'Major Mono Display', monospace;
   letter-spacing: -2px;
 }
 
@@ -41,7 +42,8 @@ span {
 }
 
 #navbar {
-  font: 15px 'cartograph_cfdemi_bold_italic', sans-serif;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 15px;
   width: 100%;
   letter-spacing: 2.5px;
   margin: 0 auto;

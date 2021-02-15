@@ -80,11 +80,11 @@ header::before{
 
 header .landing-text h1 {
   font-family: 'Major Mono Display', monospace;
-  font-size: 90px;
+  font-size: 80px;
   color:#fff;
   text-align: left;
   display: inline-block;
-  padding-top: 150px;
+  padding: 150px 20px 0 20px;
   letter-spacing: -6px;
 }
 
@@ -104,8 +104,20 @@ span {
 /*ABOUT ME SECTION*/
 #about {
   background-color: #d400ff;
+  font-family: 'Montserrat', sans-serif;
 }
 
+#about h1 {
+  font-family: 'Major Mono Display', monospace;
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+#about h3 {
+  text-align: justify;
+  padding: 40px 100px 50px 400px;
+  letter-spacing: 1px;
+}
 
 /* MEDIA QUERIES AND RESPONSIVENESS CSS*/
 @media screen and (max-width: 1060px) {

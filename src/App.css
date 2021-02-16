@@ -2,7 +2,8 @@
   text-align: center;
 }
 /*ALL THROUGHOUT APPLICABLE*/
-html { font-size:100%; } 
+html { font-size:100%;
+scroll-behavior: smooth; } 
 
 body {
   background: #1b1b1b;
@@ -117,6 +118,35 @@ span {
   text-align: justify;
   padding: 40px 100px 50px 400px;
   letter-spacing: 1px;
+}
+
+.button-p {
+  padding: 0 40px 40px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: black !important;
+  border-radius: 5px;
+  box-sizing:content-box;
+  padding: 20px;
+  float:inline-start;
+}
+
+.button{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.button:hover{
+background: #000;
+color: #d400ff;
+box-shadow: 0 0 5px #000,
+          0 0 25px #000,
+          0 0 50px #000,
+          0 0 200px #000;
+-webkit-box-reflect:below 1px linear-gradient(transition, #0005)            
 }
 
 /* MEDIA QUERIES AND RESPONSIVENESS CSS*/

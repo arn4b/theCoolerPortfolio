@@ -176,6 +176,27 @@ box-shadow: 0 0 5px #d400ff,
 -webkit-box-reflect:below 1px linear-gradient(transition, #0005)            
 }
 
+/*EDUCATION SECTION*/
+
+#resume {
+  font-family: 'Monsterrat', monospace;
+  background-color: #d400ff;
+  color: #fff;
+}
+
+#resume h1 {
+  font-family: 'Major Mono Display', monospace;
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+#resume h2 {
+  float: left;
+  padding-left: 30px;
+  text-decoration: underline;
+  color: #000;
+}
+
 /* MEDIA QUERIES AND RESPONSIVENESS CSS*/
 @media screen and (max-width: 1060px) {
   #primary { width:67%; }

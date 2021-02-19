@@ -177,10 +177,10 @@ box-shadow: 0 0 5px #d400ff,
 -webkit-box-reflect:below 1px linear-gradient(transition, #0005)            
 }
 
-/*EDUCATION SECTION*/
+/*RESUME SECTION*/
 
 #resume {
-  font-family: 'Monsterrat', monospace;
+  font-family: 'Montserrat', monospace;
   background-color: #d400ff;
   color: #fff;
 }
@@ -191,11 +191,58 @@ box-shadow: 0 0 5px #d400ff,
   font-size: 40px;
 }
 
+#resume .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;;
+}
+
+#resume .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+#resume .double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  padding-left: 40px;
+}
+
+#resume .triple-column, img {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 3;
+  padding-left: 0px;
+  margin-top: 20px;
+  max-width: 150px;
+  border-radius: 20px;
+}
+
 #resume h2 {
-  float: left;
-  padding-left: 30px;
-  text-decoration: underline;
-  color: #000;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-right: 50px;
+  text-align: right;
+}
+
+#resume h3 {
+  text-align: left;
+  font-size: 30px;
+}
+
+#resume h4 {
+  text-align: left;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 /* MEDIA QUERIES AND RESPONSIVENESS CSS*/

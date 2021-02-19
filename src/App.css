@@ -29,6 +29,7 @@ img { max-width: 100%; }
   position: fixed;
   left: 0;
   top: 0;
+  background-color: #1b1b1b;
 }
 .opaque { background-color: #333; }
 

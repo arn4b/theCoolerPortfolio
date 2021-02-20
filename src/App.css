@@ -199,10 +199,12 @@ box-shadow: 0 0 5px #d400ff,
 }
 
 #resume .column {
-  display: flex;
+  display: flexbox;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+  color: #000;
+  padding-left: 30px;
 }
 
 #resume .double-column {
@@ -214,14 +216,14 @@ box-shadow: 0 0 5px #d400ff,
 }
 
 #resume .triple-column, img {
-  display: flex;
+  display:flexbox;
   flex-direction: column;
   flex-basis: 100%;
   flex: 3;
   padding-left: 0px;
   margin-top: 20px;
   max-width: 150px;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 #resume h2 {
@@ -254,6 +256,10 @@ box-shadow: 0 0 5px #d400ff,
 @media screen and (max-width: 768px) {
   #primary { width:100%; }
   #secondary { width:100%; margin:0; border:none; }
+  #resume .triple-column {
+    display: none;
+    
+  }
 }
 
 @media (min-width: 640px) { body {font-size:1rem;} } 

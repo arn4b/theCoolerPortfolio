@@ -54,6 +54,23 @@ class Resume extends Component {
                         <h4>Frontend Web Developer</h4>
                         <h4>Dec 2020 - Present</h4>
                     </div>
+                    
+                </div>
+
+                <div className="row">
+                    <div className="column">
+                    </div>
+
+                    <div className="triple-column">
+                        <img src="https://opencollective-production.s3.us-west-1.amazonaws.com/f570dcc0-38d7-11ea-abc8-873683467d40.jpg"/>
+                    </div>
+
+                    <div className="double-column">
+                        <h3>Mozilla BBSR</h3>
+                        <h4>Frontend Web Developer</h4>
+                        <h4>Jan 2021 - Present</h4>
+                    </div>
+                    
                 </div>
 
             </section>

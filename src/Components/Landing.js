@@ -37,6 +37,16 @@ class Landing extends Component {
                     <span  class="cursor"  data-owner="main"></span>
                     </h2>
                 </div>
+                <div>
+                    <span class="scroll-btn">
+                        <a href="#about">
+                            <span class="mouse">
+                            <span>
+                            </span>
+                            </span>
+                        </a>
+                    </span>
+                </div>
             </header>
 
         );

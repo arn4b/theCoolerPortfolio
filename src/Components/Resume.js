@@ -73,6 +73,22 @@ class Resume extends Component {
                     
                 </div>
 
+                <br/>
+
+                <h1>Skills</h1>
+
+                <div className="row">
+                    <div className="double-column skill">
+                        <h3 className="skill">
+                            React
+                        </h3>
+                    </div>
+
+                    <div className="double-column skill">
+                        <h3 className="skill">Node</h3>
+                    </div>
+                </div>
+
             </section>
         );
     }

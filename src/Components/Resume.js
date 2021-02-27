@@ -78,14 +78,76 @@ class Resume extends Component {
                 <h1>Skills</h1>
 
                 <div className="row">
-                    <div className="double-column skill">
+                    <div className="double-column">
                         <h3 className="skill">
-                            React
+                            Frontend
+                        </h3>
+
+                        <h3 className="skill1">
+                            React JS
+                        </h3>
+
+                        <h3 className="skill1">
+                            HTML5 | CSS3
+                        </h3>
+
+                        <h3 className="skill1">
+                            Next JS
                         </h3>
                     </div>
 
                     <div className="double-column skill">
-                        <h3 className="skill">Node</h3>
+                        <h3 className="skill">
+                            Backend
+                        </h3>
+
+                        <h3 className="skill1">
+                            Node JS
+                        </h3>
+
+                        <h3 className="skill1">
+                            Firebase
+                        </h3>
+
+                        <h3 className="skill1">
+                            Express JS
+                        </h3>
+                    </div>
+
+                    <div className="double-column skill">
+                        <h3 className="skill">
+                            Databases
+                        </h3>
+
+                        <h3 className="skill1">
+                            MongoDB
+                        </h3>
+
+                        <h3 className="skill1">
+                            MySQl
+                        </h3>
+
+                        <h3 className="skill1">
+                            Firebase Realtime DB | Firestore
+                        </h3>
+                    </div>
+
+                    <div className="double-column skill">
+                        <h3 className="skill">
+                            Tools & Technologies
+                        </h3>
+
+                        <h3 className="skill1">
+                            Git | Github
+                        </h3>
+
+                        <h3 className="skill1">
+                            Visual Studio Code
+                        </h3>
+
+                        <h3 className="skill1">
+                            Postman
+                        </h3>
                     </div>
                 </div>
 

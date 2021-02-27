@@ -81,7 +81,7 @@ header::before{
 
 header .landing-text h1 {
   font-family: 'Major Mono Display', monospace;
-  font-size: 80px;
+  font-size: 5vmax;
   color:#fff;
   text-align: left;
   display: inline-block;
@@ -99,6 +99,7 @@ span {
   color: #fff;
   font-family: 'Major Mono Display', monospace;
   letter-spacing: -2px;
+  font-size: 3vmax;
 }
 
 header .scroll-btn{
@@ -256,13 +257,14 @@ header .scroll-btn{
 
 #about .profilepic {
   border-radius: 20px;
-  max-width: 300px;
+  max-width: 25vmax;
   margin: 40px;
   position:inherit;
 }
 
 .button-p {
   padding: 0 40px 40px;
+  font-size: 2vmax;
 }
 
 .button {
@@ -342,7 +344,7 @@ box-shadow: 0 0 5px #d400ff,
 
 #resume h2 {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 2vmax;
   margin-top: 30px;
   margin-right: 50px;
   text-align: right;
@@ -350,18 +352,25 @@ box-shadow: 0 0 5px #d400ff,
 
 #resume h3 {
   text-align: left;
-  font-size: 30px;
+  font-size: 2vmax;
 }
 
 #resume .skill {
   text-align: center;
   padding-left: 0%;
+  font-size: 40px;
 }
+
+#resume .skill1 {
+  text-align: center;
+  font-size: 30px;
+}
+
 
 #resume h4 {
   text-align: left;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 25px;
+  font-size: 1.5vmax;
   margin-top: 0px;
   margin-bottom: 10px;
 }

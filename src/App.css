@@ -225,7 +225,7 @@ header .scroll-btn{
 
 #about h1 {
   font-family: 'Major Mono Display', monospace;
-  padding-top: 50px;
+  padding-top: 40px;
   font-size: 40px;
 }
 
@@ -253,6 +253,7 @@ header .scroll-btn{
   flex-basis: 100%;
   flex: 2;
   padding-left: 40px;
+  align-items: center;
 }
 
 #about .profilepic {
@@ -262,9 +263,16 @@ header .scroll-btn{
   position:static;
 }
 
+
 .button-p {
-  padding: 0 40px 40px;
-  font-size: 2vmax;
+  padding: 0 4vw 4vw;
+  font-size: 1.75vmax;
+}
+
+.button-p1 {
+  padding-bottom: 5vh;
+  font-size: 1.75vw;
+  align-items: center;
 }
 
 .button {
@@ -387,24 +395,7 @@ box-shadow: 0 0 5px #d400ff,
   padding-top: 50px;
   font-size: 40px;
 }
-#projects .pleft {
-  position: relative;
-  padding-right: 55vw;
-}
 
-#projects .pright {
-  position: relative;
-  padding-left: 55vw;
-}
-
-#projects .pl {
-  max-width: 500px;
-  border-radius: 1.5vmax;
-}
-
-#projects .pl:hover {
-  
-}
 
 /* MEDIA QUERIES AND RESPONSIVENESS CSS*/
 @media screen and (max-width: 1060px) {

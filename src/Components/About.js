@@ -20,6 +20,37 @@ class About extends Component {
                         <img className="profilepic" src={profilepic}/>
                     </div>
                 </div>
+
+                <h1>Socials</h1>
+
+                <div className="row">
+                    <div className="double-column skill">
+                        <h3>
+                            Check out my repos at
+                        </h3>
+                        <p className="button-p1">
+                            <a href="https://github.com/arn4b"  className="button"><i class="fab fa-github"></i> &nbsp;GitHub</a>
+                        </p>
+                    </div>
+
+                    <div className="double-column skill">
+                        <h3>
+                            Connect with me on
+                        </h3>
+                        <p className="button-p1">
+                            <a href="https://www.linkedin.com/in/arnab-chatterjee-3944341a0/"  className="button"><i class="fab fa-linkedin-in"></i>&nbsp; LinkedIn</a>
+                        </p>
+                    </div>
+
+                    <div className="double-column skill">
+                        <h3>
+                            Follow me on
+                        </h3>
+                        <p className="button-p1">
+                            <a href="https://instagram.com/_arn4b_"  className="button"><i class="fab fa-instagram"></i>&nbsp; Instagram</a>
+                        </p>
+                    </div>
+                </div>
             </section>
         );
     }

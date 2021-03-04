@@ -26,21 +26,20 @@ class Landing extends Component {
                     <hr/>
                     <h2>
                     <span
-                        class="typer"
+                        className="typer"
                         id="main"
                         data-words="Bot Developer., Caffeine Addict., Full Stack Developer."
                         data-delay="100"
                         data-colors="#fff"
-                        data-deleteDelay="1000"
                         data-loop="1">
                     </span>
-                    <span  class="cursor"  data-owner="main"></span>
+                    <span  className="cursor"  data-owner="main"></span>
                     </h2>
                 </div>
                 <div>
-                    <span class="scroll-btn">
+                    <span className="scroll-btn">
                         <a href="#about">
-                            <span class="mouse">
+                            <span className="mouse">
                             <span>
                             </span>
                             </span>

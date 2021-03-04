@@ -483,6 +483,53 @@ box-shadow: 0 0 5px #d400ff,
   color: #fff;
 }
 
+/*CONTACT SECTION*/
+
+#contact {
+  background: #fff;
+  color: #000;
+}
+
+#contact h1 {
+  font-family: 'Major Mono Display', monospace;
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+#contact p, form{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vmax;
+  text-align: left;
+  padding-left: 4vw;
+}
+
+
+input, textarea {
+  width: 45vw;
+  padding: 2vh 2vw;
+  border: #000 solid 0.2vmax;
+  border-radius: 0.8vmax;
+  background-color: #000;
+  color: #d400ff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vmax;
+}
+
+
+
+#contact button {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  padding: 2vh 2vw;
+  text-decoration: none;
+  margin: 4px 0;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vmax;
+  border-radius: 0.8vmax;
+}
+
 /* MEDIA QUERIES AND RESPONSIVENESS CSS*/
 @media screen and (max-width: 1060px) {
   #primary { width:67%; }

@@ -9,36 +9,48 @@ class Contact extends Component {
                 <p>
                     Have a cool idea? Let's collaborate!
                 </p>
-                <div>
-                    <form
-                    action="https://formspree.io/f/xeqpbwja"
-                    method="POST"
-                    >
-                    <label>
-                        
+                <div className="row">
+                    <div className="double-column">
+                        <form
+                        action="https://formspree.io/f/xeqpbwja"
+                        method="POST"
+                        >
+                        <label>
+                            
+                            <br/>
+                            <input type="text" placeholder="🤖 Name" name="name"/>
+                        </label>
                         <br/>
-                        <input type="text" placeholder="🤖 Name" name="name"/>
-                    </label>
-                    <br/>
-                    <label>
-                        
+                        <label>
+                            
+                            <br/>
+                            <input type="text" placeholder="📩 Email" name="_replyto"/>
+                        </label>
                         <br/>
-                        <input type="text" placeholder="📩 Email" name="_replyto"/>
-                    </label>
-                    <br/>
-                    <label>
-                        
-                        <br/>
-                        <textarea  name="message" placeholder="📑 Message"></textarea>
-                    </label>
+                        <label>
+                            
+                            <br/>
+                            <textarea  name="message" placeholder="📑 Message"></textarea>
+                        </label>
 
-                    <br/><br/>
+                        <br/><br/>
 
-                    <button type="submit">SEND</button>
-                    </form>
+                        <button type="submit">SEND</button>
+                        </form>
+                    </div>
+
+                    <div className="column">
+                        <h2 className="cont-info">
+                            Arnab Chatterjee<br/>
+                            Bhubaneshwar, Odisha<br/>
+                            <a href="mailto:arnabc1701@gmail.com">arnabc1701@gmail.com</a>  <br/>
+                        </h2>
+                    </div>
+
                 </div>
 
-                <p>Made With ❤ by Arnab Chatterjee</p>
+                <h2>&lt;/&gt; With ❤ by Arnab Chatterjee</h2>
+                <h2>&#169; 2021</h2>
                 
             </section>
         );

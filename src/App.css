@@ -515,7 +515,43 @@ input, textarea {
   font-size: 1.5vmax;
 }
 
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vmax;
+  padding: 1vmax;
+}
 
+.cont-info {
+  font-size: 2.5vmax;
+  text-align: right;
+  line-height: 4vmax;
+}
+
+a {
+  text-decoration: none;
+  color: #d400ff;
+}
+
+#contact .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;;
+}
+
+#contact .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+#contact .double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+}
 
 #contact button {
   background-color: #000;

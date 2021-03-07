@@ -75,7 +75,7 @@ class Resume extends Component {
 
                 <br/>
 
-                <h1>Skills</h1>
+                <h1>Tech I can work with</h1>
 
                 <div className="row">
                     <div className="double-column skill">

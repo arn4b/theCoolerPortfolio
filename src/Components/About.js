@@ -21,7 +21,7 @@ class About extends Component {
                     </div>
                 </div>
 
-                <h1>Socials</h1>
+                <h1 style={{paddingTop: 0, marginTop: 0}}>Socials</h1>
 
                 <div className="row">
                     <div className="double-column skill">

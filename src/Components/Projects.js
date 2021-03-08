@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
-
+import insta from '../images/instaclone.jpg'
+import firechat from '../images/firechat.jpg'
+import discord from '../images/discordbot.jpg'
+import dialog from '../images/dialog.jpg'
 class Projects extends Component {
     render() {
         return(
@@ -9,7 +12,7 @@ class Projects extends Component {
                     <div className="double-column skill">
                         <div className="container">
                             <a href="https://github.com/arn4b/instagram-clone">
-                                <img src="https://wallpapercave.com/wp/wp2587127.jpg" className="pimg" />
+                                <img src={insta} className="pimg" />
                                 <div className="middle">
                                 
                                 <div className="text">Full Stack Instagram Clone</div>
@@ -23,16 +26,63 @@ class Projects extends Component {
                     <div className="double-column skill">
                         <div className="container">
                             <a href="https://github.com/arn4b/superchat">
-                                <img src="https://wallpapercave.com/wp/wp2587127.jpg" className="pimg" />
+                                <img src={firechat} className="pimg" />
                                 <div className="middle">
                                 
                                 <div className="text">Firebase based Chatroom</div>
-                                <div className="text"><i class="fab fa-github"></i>&nbsp;GitHub</div>
+                                <div className="text"><i class="fab fa-github"></i></div>
                                 
                                 </div>
                             </a>
                         </div>
                     </div>
+                    
+                    <div className="double-column skill">
+                        <div className="container">
+                            <a href="https://github.com/arn4b/discord-bot-gen1">
+                                <img src={discord} className="pimg" />
+                                <div className="middle">
+                                
+                                <div className="text">Discord User and Content Moderation Bot</div>
+                                <div className="text"><i class="fab fa-github"></i></div>
+                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="double-column skill">
+                        <div className="container">
+                            <a>
+                                <img src={dialog} className="pimg" />
+                                <div className="middle">
+                                
+                                <div className="text">DialogFlow Chatbot</div>
+                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h1>Projects I've collaborated on</h1>
+
+                <div className="row">
+                    <div className="double-column skill">
+                        <div className="container">
+                            <a href="https://gfgkiit.netlify.com">
+                                <img src="https://gfgkiit.netlify.app/static/media/GFGKIITWebsitePoster.0c3aae94.png" className="pimg" />
+                                <div className="middle">
+                                
+                                <div className="text">GFG KIIT Chapter Official Website</div>
+                                <div className="text"><i class="fas fa-external-link-alt"></i></div>
+                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
                 
             </section>

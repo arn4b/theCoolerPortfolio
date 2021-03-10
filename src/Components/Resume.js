@@ -62,11 +62,11 @@ class Resume extends Component {
                     </div>
 
                     <div className="triple-column">
-                        <img src="https://opencollective-production.s3.us-west-1.amazonaws.com/f570dcc0-38d7-11ea-abc8-873683467d40.jpg"/>
+                        <img src="https://avatars.githubusercontent.com/u/79008924?s=400&v=4"/>
                     </div>
 
                     <div className="double-column">
-                        <h3>Mozilla BBSR</h3>
+                        <h3>Microsoft Student Activity Centre</h3>
                         <h4>Frontend Web Developer</h4>
                         <h4>Jan 2021 - Present</h4>
                     </div>

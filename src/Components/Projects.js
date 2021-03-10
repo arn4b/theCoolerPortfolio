@@ -3,6 +3,7 @@ import insta from '../images/instaclone.jpg'
 import firechat from '../images/firechat.jpg'
 import discord from '../images/discordbot.jpg'
 import dialog from '../images/dialog.jpg'
+import gfg from '../images/GFGKIITWebsitePoster.0c3aae94.jpg'
 class Projects extends Component {
     render() {
         return(
@@ -10,7 +11,7 @@ class Projects extends Component {
                 <h1>My Work</h1>
                 <div className="row">
                     <div className="double-column skill">
-                        <div className="container">
+                        <div className="container zoom">
                             <a href="https://github.com/arn4b/instagram-clone">
                                 <img src={insta} className="pimg" />
                                 <div className="middle">
@@ -24,7 +25,7 @@ class Projects extends Component {
                     </div>
 
                     <div className="double-column skill">
-                        <div className="container">
+                        <div className="container zoom">
                             <a href="https://github.com/arn4b/superchat">
                                 <img src={firechat} className="pimg" />
                                 <div className="middle">
@@ -38,7 +39,7 @@ class Projects extends Component {
                     </div>
                     
                     <div className="double-column skill">
-                        <div className="container">
+                        <div className="container zoom">
                             <a href="https://github.com/arn4b/discord-bot-gen1">
                                 <img src={discord} className="pimg" />
                                 <div className="middle">
@@ -52,7 +53,7 @@ class Projects extends Component {
                     </div>
 
                     <div className="double-column skill">
-                        <div className="container">
+                        <div className="container zoom">
                             <a>
                                 <img src={dialog} className="pimg" />
                                 <div className="middle">
@@ -70,9 +71,9 @@ class Projects extends Component {
 
                 <div className="row">
                     <div className="double-column skill">
-                        <div className="container">
+                        <div className="container zoom">
                             <a href="https://gfgkiit.netlify.com">
-                                <img src="https://gfgkiit.netlify.app/static/media/GFGKIITWebsitePoster.0c3aae94.png" className="pimg" />
+                                <img src={gfg} className="pimg" />
                                 <div className="middle">
                                 
                                 <div className="text">GFG KIIT Chapter Official Website</div>

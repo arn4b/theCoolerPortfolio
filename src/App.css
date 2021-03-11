@@ -88,7 +88,7 @@ header .landing-text h1 {
   color:#fff;
   text-align: left;
   display: inline-block;
-  padding: 30vh 10vw 0 10vw;
+  padding: 25vh 10vw 0 10vw;
   letter-spacing: -4px;
 }
 
@@ -106,7 +106,7 @@ span {
 }
 
 header .scroll-btn{
-  padding-top: 180px;
+  top: 90vh;
   position: absolute;
 }
 
@@ -234,6 +234,7 @@ header .scroll-btn{
 
 #about p {
   text-align: left;
+  font-size: 2vmax;
 }
 
 #about .row {
@@ -374,8 +375,10 @@ box-shadow: 0 0 5px #d400ff,
   flex: 2;
   padding-left: 0px;
   margin-top: 2vh;
-  max-width: 10vmax;
+  max-width: 8vmax;
   border-radius: 15px;
+  position: relative;
+  top: 3vh;
 }
 
 
@@ -410,6 +413,26 @@ box-shadow: 0 0 5px #d400ff,
   font-size: 1.5vmax;
   margin-top: 0px;
   margin-bottom: 10px;
+}
+
+#resume span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5vmax;
+}
+#resume .icon-img {
+  display: inline-block;
+  position: relative;
+  max-height: 4.5vmax;
+  border-radius: 0;
+}
+
+#resume .tech {
+  background: #ffffff;
+  color: #000;
+  position:relative;
+  font-size: 2.5vmax !important;
+  padding: 0 2vmax 1vmax;
+  font-weight: 600;
 }
 
 /*PROJECTS SECTION*/

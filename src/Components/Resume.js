@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
-import gfg from '../images/gfg_complete_logo_2x-min.jpg'
+import react from '../images/logos/react.png'
+import materialize from '../images/logos/materialize.png'
+import node from '../images/logos/node.png'
+
 class Resume extends Component {
     render() {
         return(
@@ -75,80 +78,53 @@ class Resume extends Component {
 
                 <br/>
 
+                <div className="tech">
                 <h1>Tech I can work with</h1>
 
-                <div className="row">
-                    <div className="double-column skill">
-                        <h3 className="skill">
-                            Frontend
-                        </h3>
+                    <p>I love to work on frontend using &nbsp;
+                    <span >
+                        <img className="icon-img" src={react}/>
+                    </span>
+                    <span style={{color: "#61dafb"}}>ReactJS</span>&nbsp;
+                     and &nbsp;
+                     <span className="icon-img">
+                        <img className="icon-img" src={materialize}/>
+                    </span>
+                    <span style={{color: "#e57373"}}>Materialize CSS.</span>
+                    <br/>
+                    <span className="icon-img">
+                        <img className="icon-img" src={node}/>
+                    </span>
+                    <span style={{color: "#3c873a"}}>NodeJS</span>
+                    &nbsp; is my favorite tool to develop backends, other than 
+                    <span className="icon-img">
+                        <img className="icon-img" src="https://4.bp.blogspot.com/-rtNRVM3aIvI/XJX_U07Z-II/AAAAAAAAJXY/YpdOo490FTgdKOxM4qDG-2-EzcNFAWkKACK4BGAYYCw/s1600/logo%2Bfirebase%2Bicon.png"/>
+                    </span>
+                    <span style={{color: "#ffa611"}}>Firebase.</span>
+                    <br/>
+                    For database, I use 
+                    <span className="icon-img">
+                        <img className="icon-img" src="https://img.icons8.com/color/452/mongodb.png"/>
+                    </span>
+                    <span style={{color: "#3fa037"}}>MongoDB</span>  (NoSQL) and &nbsp;
+                    <span className="icon-img">
+                        <img className="icon-img" src="http://pngimg.com/uploads/mysql/mysql_PNG23.png"/>
+                    </span>
+                    <span style={{color: "#00758f"}}>MySQL</span>  (SQL).
+                    <br/>
+                    For hosting and CI/CD, I use 
+                    <span className="icon-img">
+                        <img className="icon-img" src="https://emoji.gg/assets/emoji/5394_heroku_logo.png"/>
+                    </span>
+                    <span style={{color: "#6762a6"}}>Heroku</span>&nbsp;
+                    as it gives smooth integration with 
+                    <span className="icon-img">
+                        <img className="icon-img" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"/>
+                    </span>
+                    <span style={{color: "#f34f29"}}>Git</span> version control tool.
+                    <br/>
 
-                        <h3 className="skill1">
-                            React JS
-                        </h3>
-
-                        <h3 className="skill1">
-                            HTML5 | CSS3
-                        </h3>
-
-                        <h3 className="skill1">
-                            Next JS
-                        </h3>
-                    </div>
-
-                    <div className="double-column skill">
-                        <h3 className="skill">
-                            Backend
-                        </h3>
-
-                        <h3 className="skill1">
-                            Node JS
-                        </h3>
-
-                        <h3 className="skill1">
-                            Firebase
-                        </h3>
-
-                        <h3 className="skill1">
-                            Express JS
-                        </h3>
-                    </div>
-
-                    <div className="double-column skill">
-                        <h3 className="skill">
-                            Databases
-                        </h3>
-
-                        <h3 className="skill1">
-                            MongoDB
-                        </h3>
-
-                        <h3 className="skill1">
-                            MySQl
-                        </h3>
-
-                        <h3 className="skill1">
-                            Firebase Realtime DB | Firestore
-                        </h3>
-                    </div>
-
-                    <div className="double-column skill">
-                        <h3 className="skill">
-                            Tools & Technologies
-                        </h3>
-
-                        <h3 className="skill1">
-                            Git | Github
-                        </h3>
-
-                        <h3 className="skill1">
-                            Visual Studio Code
-                        </h3>
-
-                        <h3 className="skill1">
-                            Postman
-                        </h3>
-                    </div>
+                    </p>
                 </div>
 
             </section>

@@ -423,6 +423,7 @@ box-shadow: 0 0 5px #d400ff,
   display: inline-block;
   position: relative;
   max-height: 4.5vmax;
+  top: 1.25vmax;
   border-radius: 0;
 }
 
@@ -467,7 +468,6 @@ box-shadow: 0 0 5px #d400ff,
   flex-direction: column;
   flex-basis: 100%;
   flex: 2;
-  padding-left: 40px;
   align-items: center;
 }
 
@@ -614,9 +614,13 @@ a {
   #primary { width:100%; }
   #secondary { width:100%; margin:0; border:none; }
   #resume .triple-column {
-    display: none;
-    
+    display: none; 
   }
+
+  #projects .pimg{
+    width: 85vw;
+  }
+
 }
 
 @media (min-width: 640px) { body {font-size:1rem;} } 

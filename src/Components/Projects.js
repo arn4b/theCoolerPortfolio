@@ -4,6 +4,7 @@ import firechat from '../images/firechat.jpg'
 import discord from '../images/discordbot.jpg'
 import dialog from '../images/dialog.jpg'
 import gfg from '../images/GFGKIITWebsitePoster.0c3aae94.jpg'
+import cit from '../images/cit.png'
 class Projects extends Component {
     render() {
         return(
@@ -72,7 +73,7 @@ class Projects extends Component {
                 <div className="row">
                     <div className="double-column skill">
                         <div className="container zoom">
-                            <a href="https://gfgkiit.netlify.com">
+                            <a href="https://gfgkiit.co">
                                 <img src={gfg} className="pimg" />
                                 <div className="middle">
                                 
@@ -84,6 +85,20 @@ class Projects extends Component {
                         </div>
                     </div>
 
+
+                    <div className="double-column skill">
+                        <div className="container zoom">
+                            <a href="https://codeinturns.tech">
+                                <img src={cit} className="pimg" />
+                                <div className="middle">
+                                
+                                <div className="text">Code In-Turns MSAC</div>
+                                <div className="text"><i class="fas fa-external-link-alt"></i></div>
+                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 
             </section>

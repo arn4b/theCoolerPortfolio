@@ -87,38 +87,38 @@ class Resume extends Component {
                     </span>
                     <span style={{color: "#61dafb"}}>ReactJS</span>&nbsp;
                      and &nbsp;
-                     <span className="icon-img">
+                     <span>
                         <img className="icon-img" src={materialize}/>
                     </span>
                     <span style={{color: "#e57373"}}>Materialize CSS.</span>
                     <br/>
-                    <span className="icon-img">
+                    <span>
                         <img className="icon-img" src={node}/>
                     </span>
                     <span style={{color: "#3c873a"}}>NodeJS</span>
                     &nbsp; is my favorite tool to develop backends, other than 
-                    <span className="icon-img">
+                    <span>
                         <img className="icon-img" src="https://4.bp.blogspot.com/-rtNRVM3aIvI/XJX_U07Z-II/AAAAAAAAJXY/YpdOo490FTgdKOxM4qDG-2-EzcNFAWkKACK4BGAYYCw/s1600/logo%2Bfirebase%2Bicon.png"/>
                     </span>
                     <span style={{color: "#ffa611"}}>Firebase.</span>
                     <br/>
                     For database, I use 
-                    <span className="icon-img">
+                    <span>
                         <img className="icon-img" src="https://img.icons8.com/color/452/mongodb.png"/>
                     </span>
                     <span style={{color: "#3fa037"}}>MongoDB</span>  (NoSQL) and &nbsp;
-                    <span className="icon-img">
+                    <span>
                         <img className="icon-img" src="http://pngimg.com/uploads/mysql/mysql_PNG23.png"/>
                     </span>
                     <span style={{color: "#00758f"}}>MySQL</span>  (SQL).
                     <br/>
-                    For hosting and CI/CD, I use 
-                    <span className="icon-img">
+                    I host my web apps on 
+                    <span>
                         <img className="icon-img" src="https://emoji.gg/assets/emoji/5394_heroku_logo.png"/>
                     </span>
                     <span style={{color: "#6762a6"}}>Heroku</span>&nbsp;
-                    as it gives smooth integration with 
-                    <span className="icon-img">
+                    as it gives smooth integration and CI/CD with &nbsp;
+                    <span>
                         <img className="icon-img" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"/>
                     </span>
                     <span style={{color: "#f34f29"}}>Git</span> version control tool.

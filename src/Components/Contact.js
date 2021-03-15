@@ -49,7 +49,11 @@ class Contact extends Component {
 
                 </div>
 
-                <h2>&lt;/&gt; With ❤ by Arnab Chatterjee | &#169; 2021</h2>
+                <div className="footer">
+
+                    <h2>&lt;/&gt; With ❤ by Arnab Chatterjee | &#169; 2021</h2>
+
+                </div>
                 
             </section>
         );

@@ -4,7 +4,7 @@ import firechat from '../images/firechat.jpg'
 import discord from '../images/discordbot.jpg'
 import dialog from '../images/dialog.jpg'
 import gfg from '../images/GFGKIITWebsitePoster.0c3aae94.jpg'
-import cit from '../images/cit.png'
+import cit from '../images/cit.jpg'
 class Projects extends Component {
     render() {
         return(

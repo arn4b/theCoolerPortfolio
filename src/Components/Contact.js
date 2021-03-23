@@ -10,7 +10,7 @@ class Contact extends Component {
                     Have a cool idea? Let's collaborate!
                 </p>
                 <div className="row">
-                    <div className="double-column">
+                    <div className="column">
                         <form
                         action="https://formspree.io/f/xeqpbwja"
                         method="POST"

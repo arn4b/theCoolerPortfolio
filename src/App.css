@@ -41,14 +41,14 @@ body {
 }
 
 /*NAVIGATIOON BAR*/
-#navbar ul, #navbar li, #navbar a {
+.navbar ul, .navbar li, .navbar a {
   margin: 0;
   padding: 0;
   border: none;
   outline: none;
 }
 
-#navbar {
+.navbar {
   font-family: 'Major Mono Display', monospace;
   font-size: 0.9vmax;
   width: 100%;
@@ -61,7 +61,7 @@ body {
   background-color: #1b1b1b;
 }
 
-#navbar > a.mobile-btn { display: none;}
+.navbar > a.mobile-btn { display: none;}
 
 ul#nav {
   min-height: 48px;
@@ -89,7 +89,6 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #d400ff; }
 
 
 /*LANDING PAGE*/
@@ -567,7 +566,7 @@ box-shadow: 0 0 5px #d400ff,
 
 
 input, textarea {
-  width: 45vw;
+  width:45vw;
   padding: 2vh 2vw;
   border: #000 solid 0.2vmax;
   border-radius: 0.8vmax;
@@ -610,13 +609,6 @@ a {
   flex: 1;
 }
 
-#contact .double-column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 2;
-}
-
 #contact button {
   background-color: #000;
   border: none;
@@ -652,6 +644,13 @@ a {
     width: 85vw;
   }
 
+  #contact .cont-info {
+    text-align: center;
+  }
+
+  input, textarea {
+    width: 85vw;;
+  }
 }
 
 @media (min-width: 640px) { body {font-size:1rem;} } 

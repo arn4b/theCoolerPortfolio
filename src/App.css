@@ -254,7 +254,7 @@ header .scroll-btn{
 #about h1 {
   font-family: 'Major Mono Display', monospace;
   padding-top: 40px;
-  font-size: 40px;
+  font-size: 3vmax;
 }
 
 #about p {
@@ -272,8 +272,6 @@ header .scroll-btn{
 #about .column {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
 }
 
 #about .double-column {
@@ -287,9 +285,9 @@ header .scroll-btn{
 
 #about .profilepic {
   border-radius: 20px;
-  max-width: 350px;
+  max-width: 100%;
+  width: 350px;
   margin: 40px;
-  position:static;
 }
 
 
@@ -332,7 +330,7 @@ box-shadow: 0 0 5px #d400ff,
 .button1 {
   text-decoration: none;
   background-color: white !important;
-  border: 0.5vmin solid black;
+  border: 3px solid black;
   border-color: #000;
   border-radius: 5px;
   box-sizing:content-box;
@@ -359,14 +357,14 @@ box-shadow: 0 0 5px #d400ff,
 
 #resume {
   font-family: 'Montserrat', monospace;
-  background-color: #d400ff;
+  /* background-color: #d400ff; */
   color: #fff;
 }
 
 #resume h1 {
   font-family: 'Major Mono Display', monospace;
   padding-top: 50px;
-  font-size: 40px;
+  font-size: 3vmax;
 }
 
 #resume .row {
@@ -471,7 +469,7 @@ box-shadow: 0 0 5px #d400ff,
 #projects h1 {
   font-family: 'Major Mono Display', monospace;
   padding-top: 5vh;
-  font-size: 40px;
+  font-size: 3vmax;
 }
 
 #projects .row {
@@ -554,12 +552,12 @@ box-shadow: 0 0 5px #d400ff,
 #contact h1 {
   font-family: 'Major Mono Display', monospace;
   padding-top: 50px;
-  font-size: 40px;
+  font-size: 3vmax;
 }
 
 #contact p, form{
   font-family: 'Montserrat', sans-serif;
-  font-size: 2vmax;
+  font-size: 2.5vmax;
   text-align: left;
   padding-left: 4vw;
 }
@@ -612,7 +610,7 @@ a {
 #contact button {
   background-color: #000;
   border: none;
-  color: #fff;
+  color: #d400ff;
   padding: 2vh 2vw;
   text-decoration: none;
   margin: 4px 0;
@@ -620,6 +618,52 @@ a {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5vmax;
   border-radius: 0.8vmax;
+  width: 100%;
+  max-width: 25%;
+}
+
+#contact .socials {
+  font-size: 4vmax;
+  text-align: right;
+  position: relative;
+  left: 15vw;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  max-width: 60%;
+  cursor: pointer;
+}
+
+#contact .fab {
+  color: #000 ;
+}
+
+#contact .socials .fa-facebook-square:hover {
+  color: #4267B2;
+  transition: transform 0.5s;
+  transform:scale(1.4) ;
+}
+
+#contact .fa-twitter-square:hover {
+  color: #1DA1F2;
+  transition: transform 0.5s;
+  transform:scale(1.4) ;
+}
+
+#contact .fa-instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+-webkit-background-clip: text;
+/* Also define standard property for compatibility */
+background-clip: text;
+-webkit-text-fill-color: transparent;
+transition: transform 0.5s;
+transform:scale(1.4) ;
+}
+
+#contact .fa-linkedin:hover {
+  color: #0072b1;
+  transition: transform 0.5s;
+  transform:scale(1.4) ;
 }
 
 #contact .footer{
@@ -631,6 +675,23 @@ a {
 @media screen and (max-width: 1060px) {
   #primary { width:67%; }
   #secondary { width:30%; margin-left:3%;}  
+  #about .profilepic {
+    display: none;
+  }
+
+  #about .column {
+    display: none;
+  }
+
+  #about .double-column {
+    padding: 0px 40px;
+  }
+
+  #about p {
+    text-align: left;
+    font-size: 2.5vmax !important;
+  }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -650,6 +711,31 @@ a {
 
   input, textarea {
     width: 85vw;;
+  }
+
+  #about .skill-btns {
+    flex-direction: column;
+  }
+
+  .scroll-btn {
+    display: none;
+  }
+
+  input, textarea {
+    font-size: 2vmax;
+  }
+
+  #contact button {
+    font-size: 2vmax;
+  }
+
+  #contact .socials {
+    font-size: 4vmax;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 60%;
+    position: relative;
+    left: 19vw !important;
   }
 }
 

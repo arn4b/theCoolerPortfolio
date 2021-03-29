@@ -10,7 +10,12 @@ class About extends Component {
                 <div className="row">
 
                     <div className="double-column">
-                        <p>I'm a 19 y/o Student and a Full Stack Web Developer currently working with GeeksForGeeks KIIT as a frontend and backend developer. As a Web Developer, I mostly work with React and NodeJS, and multiple other JavaScript frameworks which aid in making highly responsive web pages. I'm also a bot developer, having developed bots for Discord, Twitter and Chatbots.</p><br/>
+                        <p>I'm a Sophomore at Kalinga Institute of Industrial Technology, Bhubaneshwar, majoring in Computer Science. 
+                            I have a keen interest in developing mobile-first fully responsive frontend sites using ReactJS, and multiple frontend 
+                            frameworks like Bootstrap, MaterialUI, etc. I have worked on multiple projects using React, 
+                            NodeJS, Firebase and multiple public APIs. Currently, I'm working as a Web Developer at 
+                            GFG KIIT Chapter and MSAC KIIT. I am open to work and collaborate on open source projects, 
+                            Frontend projects, and UI designing.</p><br/>
                         <p className="button-p">
                             <a href="https://drive.google.com/file/d/1K9ZSDG6tkbt6RS8wfdxQcnsXrIW2c0pa/view?usp=sharing"  className="button"><i class="fas fa-download"></i> Get my Resume</a>
                         </p>
@@ -23,7 +28,7 @@ class About extends Component {
 
                 <h1 style={{paddingTop: 0, marginTop: 0}}>Socials</h1>
 
-                <div className="row">
+                <div className="row skill-btns">
                     <div className="double-column skill">
                         <h3>
                             Check out my repos at

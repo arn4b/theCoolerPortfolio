@@ -27,7 +27,7 @@ class Landing extends Component {
                     <span
                         className="typer"
                         id="main"
-                        data-words="Bot Developer., Caffeine Addict., Full Stack Developer."
+                        data-words="UI / UX, Mobile First, Frontend Developer."
                         data-delay="100"
                         data-colors="#fff"
                         data-loop="1">

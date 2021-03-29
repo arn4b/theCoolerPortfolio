@@ -7,7 +7,7 @@ class Resume extends Component {
     render() {
         return(
             <section id="resume">
-                <h1>Resume</h1>
+                {/* <h1>Resume</h1>
                 <div className="row">
                     <div className="column">
                         <h2>Education</h2>
@@ -74,9 +74,9 @@ class Resume extends Component {
                         <h4>Jan 2021 - Present</h4>
                     </div>
                     
-                </div>
+                </div> */}
 
-                <br/>
+                {/* <br/> */}
 
                 <div className="tech">
                 <h1>Tech I can work with</h1>

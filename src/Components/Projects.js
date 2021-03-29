@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import insta from '../images/instaclone.jpg'
 import firechat from '../images/firechat.jpg'
 import discord from '../images/discordbot.jpg'
-import dialog from '../images/dialog.jpg'
+import firepost from '../images/firepost.jpg'
 import gfg from '../images/GFGKIITWebsitePoster.0c3aae94.jpg'
 import cit from '../images/cit.jpg'
 class Projects extends Component {
@@ -55,16 +55,19 @@ class Projects extends Component {
 
                     <div className="double-column skill">
                         <div className="container zoom">
-                            <a>
-                                <img src={dialog} className="pimg" />
+                        <a href="https://github.com/arn4b/firepost">
+                                <img src={firepost} className="pimg" />
                                 <div className="middle">
                                 
-                                <div className="text">DialogFlow Chatbot</div>
+                                <div className="text">FirePost <br/> Social Media app w/ React and Firebase.</div>
+                                <div className="text"><i class="fab fa-github"></i></div>
                                 
                                 </div>
                             </a>
                         </div>
                     </div>
+
+                    
 
                 </div>
 

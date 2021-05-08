@@ -5,6 +5,8 @@ import discord from '../images/discordbot.jpg'
 import firepost from '../images/firepost.jpg'
 import gfg from '../images/GFGKIITWebsitePoster.0c3aae94.jpg'
 import cit from '../images/cit.jpg'
+import auto from '../images/auto.jpg'
+import electron from '../images/electron.jpg'
 class Projects extends Component {
     render() {
         return(
@@ -59,7 +61,37 @@ class Projects extends Component {
                                 <img src={firepost} className="pimg" />
                                 <div className="middle">
                                 
-                                <div className="text">FirePost <br/> Social Media app w/ React and Firebase.</div>
+                                <div className="text">FirePost <br/> Social Media app w/ ReactJS &amp; Firebase.</div>
+                                <div className="text"><i class="fab fa-github"></i></div>
+                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    
+                    <div className="double-column skill">
+                        <div className="container zoom">
+                            <a href="https://github.com/arn4b/autocomplete">
+                                <img src={electron} className="pimg" />
+                                <div className="middle">
+                                
+                                <div className="text">File Explorer for WIndows/MacOS/Linux using ElectronJS &amp; ReactJS</div>
+                                <div className="text"><i class="fab fa-github"></i></div>
+                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div className="double-column skill">
+                        <div className="container zoom">
+                            <a href="https://github.com/arn4b/autocomplete">
+                                <img src={auto} className="pimg" />
+                                <div className="middle">
+                                
+                                <div className="text">AutoComplete Textfield w/ ReactJS</div>
                                 <div className="text"><i class="fab fa-github"></i></div>
                                 
                                 </div>

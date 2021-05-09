@@ -10,7 +10,7 @@ class About extends Component {
                 <div className="row">
 
                     <div className="double-column">
-                        <p>I'm a Sophomore at Kalinga Institute of Industrial Technology, Bhubaneshwar, majoring in Computer Science. 
+                        <p>I'm a Junior at Kalinga Institute of Industrial Technology, Bhubaneshwar, majoring in Computer Science. 
                             I have a keen interest in developing mobile-first fully responsive frontend sites using ReactJS, and multiple frontend 
                             frameworks like Bootstrap, MaterialUI, etc. I have worked on multiple projects using React, 
                             NodeJS, Firebase and multiple public APIs. Currently, I'm working as a Web Developer at 

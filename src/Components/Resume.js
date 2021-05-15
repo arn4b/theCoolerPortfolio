@@ -7,77 +7,6 @@ class Resume extends Component {
     render() {
         return(
             <section id="resume">
-                {/* <h1>Resume</h1>
-                <div className="row">
-                    <div className="column">
-                        <h2>Education</h2>
-                    </div>
-
-                    <div className="triple-column">
-                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/KIIT_logo.svg/1200px-KIIT_logo.svg.png"/>
-                    </div>
-
-                    <div className="double-column">
-                        <h3>Kalinga Institute of Industrial Technology, Bhubaneshwar</h3>
-                        <h4>B. Tech. in Computer Science and System Engineering (Expected 2023)</h4>
-                        <h4>CGPA: 9.32</h4>
-                    </div>
-                </div>
-
-                <div className="row">
-                    <div className="column">
-                    </div>
-
-                    <div className="triple-column">
-                        <img src="http://www.sjsshaktinagar.com/images/sjslogo.png"/>
-                    </div>
-
-                    <div className="double-column">
-                        <h3>St. Joseph's School, Shaktinagar</h3>
-                        <h4>All India Senior Secondary Examination (CBSE)</h4>
-                        <h4>Percentage: 87.8%</h4>
-                    </div>
-
-
-                </div>
-
-                <br/>
-
-                <div className="row">
-                    <div className="column">
-                        <h2>Work Experience</h2>
-                    </div>
-
-                    <div className="triple-column">
-                        <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png"/>
-                    </div>
-
-                    <div className="double-column">
-                        <h3>GeeksForGeeks KIIT</h3>
-                        <h4>Frontend Web Developer</h4>
-                        <h4>Dec 2020 - Present</h4>
-                    </div>
-                    
-                </div>
-
-                <div className="row">
-                    <div className="column">
-                    </div>
-
-                    <div className="triple-column">
-                        <img src="https://avatars.githubusercontent.com/u/79008924?s=400&v=4"/>
-                    </div>
-
-                    <div className="double-column">
-                        <h3>Microsoft Student Activity Centre</h3>
-                        <h4>Frontend Web Developer</h4>
-                        <h4>Jan 2021 - Present</h4>
-                    </div>
-                    
-                </div> */}
-
-                {/* <br/> */}
-
                 <div className="tech">
                 <h1>Tech I can work with</h1>
 
@@ -86,17 +15,24 @@ class Resume extends Component {
                         <img className="icon-img" src={react}/>
                     </span>
                     <span style={{color: "#61dafb"}}>ReactJS</span>&nbsp;
-                     and &nbsp;
-                     <span>
-                        <img className="icon-img" src={materialize}/>
+                     and
+                    <span>
+                        <img className="icon-img" src="https://download.logo.wine/logo/Bootstrap_(front-end_framework)/Bootstrap_(front-end_framework)-Logo.wine.png"/>
                     </span>
-                    <span style={{color: "#e57373"}}>Materialize CSS.</span>
+                    <span style={{color: "#553c7b"}}>Bootstrap</span> .
                     <br/>
+                    <span>
+                        <img className="icon-img" src="https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png"/>
+                    </span>
+                    <span style={{color: "#764abc"}}>Redux</span>
+                    &nbsp; is my goto tool for state management.
+                    <br/>
+                    For developing backends, I use 
                     <span>
                         <img className="icon-img" src={node}/>
                     </span>
                     <span style={{color: "#3c873a"}}>NodeJS</span>
-                    &nbsp; is my favorite tool to develop backends, other than 
+                    &nbsp; or 
                     <span>
                         <img className="icon-img" src="https://4.bp.blogspot.com/-rtNRVM3aIvI/XJX_U07Z-II/AAAAAAAAJXY/YpdOo490FTgdKOxM4qDG-2-EzcNFAWkKACK4BGAYYCw/s1600/logo%2Bfirebase%2Bicon.png"/>
                     </span>
@@ -116,12 +52,16 @@ class Resume extends Component {
                     <span>
                         <img className="icon-img" src="https://emoji.gg/assets/emoji/5394_heroku_logo.png"/>
                     </span>
-                    <span style={{color: "#6762a6"}}>Heroku</span>&nbsp;
-                    as it gives smooth integration and CI/CD with &nbsp;
+                    <span style={{color: "#6762a6"}}>Heroku (NodeJS Apps)</span>&nbsp; &amp; &nbsp;
+                    <span>
+                        <img className="icon-img" src="https://www.cloudflare.com/img/cf-facebook-card.png"/>
+                    </span>
+                    <span style={{color: "#f48120"}}>Cloudflare Pages (Static)</span>&nbsp;
+                    as they give smooth integration and CI/CD with &nbsp;
                     <span>
                         <img className="icon-img" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"/>
                     </span>
-                    <span style={{color: "#f34f29"}}>Git</span> version control tool.
+                    <span style={{color: "#f34f29"}}>Git</span> .
                     <br/>
 
                     </p>

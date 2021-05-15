@@ -7,6 +7,8 @@ import gfg from '../images/GFGKIITWebsitePoster.0c3aae94.jpg'
 import cit from '../images/cit.jpg'
 import auto from '../images/auto.jpg'
 import electron from '../images/electron.jpg'
+import tksmedia from '../images/tksmedia.png'
+import msac from '../images/msac.png'
 class Projects extends Component {
     render() {
         return(
@@ -99,6 +101,20 @@ class Projects extends Component {
                         </div>
                     </div>
 
+
+                    <div className="double-column skill">
+                        <div className="container zoom">
+                            <a href="https://tksmediaagency.pages.dev">
+                                <img src={tksmedia} className="pimg" />
+                                <div className="middle">
+                                
+                                <div className="text">Website for The Knowledge Store</div>
+                                <div className="text"><i class="fas fa-external-link-alt"></i></div>
+                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                     
 
                 </div>
@@ -128,6 +144,21 @@ class Projects extends Component {
                                 <div className="middle">
                                 
                                 <div className="text">Code In-Turns MSAC</div>
+                                <div className="text"><i class="fas fa-external-link-alt"></i></div>
+                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div className="double-column skill">
+                        <div className="container zoom">
+                            <a href="https://msackiit.tech">
+                                <img src={msac} className="pimg" />
+                                <div className="middle">
+                                
+                                <div className="text">MSAC KIIT Official Website</div>
                                 <div className="text"><i class="fas fa-external-link-alt"></i></div>
                                 
                                 </div>

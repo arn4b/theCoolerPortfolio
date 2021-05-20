@@ -17,7 +17,7 @@ class About extends Component {
                             GFG KIIT Chapter and MSAC KIIT. I am open to work and collaborate on open source projects, 
                             Frontend projects, and UI designing.</p><br/>
                         <p className="button-p">
-                            <a href="https://drive.google.com/file/d/1K9ZSDG6tkbt6RS8wfdxQcnsXrIW2c0pa/view?usp=sharing"  className="button"><i class="fas fa-download"></i> Get my Resume</a>
+                            <a href="https://drive.google.com/file/d/1vrIq3-ZjOXmfHcn9i91R8wj7vBhJNY2I/view?usp=sharing"  className="button"><i class="fas fa-download"></i> Get my Resume</a>
                         </p>
                     </div>
 

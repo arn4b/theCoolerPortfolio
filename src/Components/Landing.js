@@ -8,7 +8,7 @@ class Landing extends Component {
             <header id="home">
                 <ParticlesBg color="#d400ff" type="cobweb" bg = {true} />
 
-                {/* <nav className="navbar">
+                <nav className="navbar">
 
                     <ul id="nav" className="main-nav">
                         <li><a href="#home">Home</a></li>
@@ -17,7 +17,7 @@ class Landing extends Component {
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
-                </nav> */}
+                </nav>
 
 
                 <div className="landing-text">

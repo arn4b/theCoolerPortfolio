@@ -58,7 +58,8 @@ body {
   position: fixed;
   left: 0;
   top: 0;
-  background-color: #1b1b1b;
+  background-color: #1b1b1bd0;
+  backdrop-filter: blur(10px);
 }
 
 .navbar > a.mobile-btn { display: none;}
@@ -259,6 +260,7 @@ header .scroll-btn{
   font-family: 'Major Mono Display', monospace;
   padding-top: 40px;
   font-size: 3vmax;
+  margin-top: 0;
 }
 
 #about p {
@@ -276,6 +278,7 @@ header .scroll-btn{
 #about .column {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 #about .double-column {
@@ -290,13 +293,13 @@ header .scroll-btn{
 #about .profilepic {
   border-radius: 20px;
   max-width: 100%;
-  width: 350px;
+  width: 320px;
   margin: 40px;
 }
 
 
 .button-p {
-  padding: 0 4vw 4vw;
+  padding: 0 4vw;
   font-size: 1.75vmax;
 }
 
@@ -324,10 +327,10 @@ header .scroll-btn{
 .button:hover{
 background: #000;
 color: #fff;
-box-shadow: 0 0 5px #d400ff,
-          0 0 25px #d400ff,
-          0 0 50px #d400ff,
-          0 0 200px #d400ff;
+box-shadow: 0 0 .5px #d400ff,
+          0 0 2.5px #d400ff,
+          0 0 5px #d400ff,
+          0 0 20px #d400ff;
 -webkit-box-reflect:below 1px linear-gradient(transition, #0005)            
 }
 
@@ -350,10 +353,10 @@ box-shadow: 0 0 5px #d400ff,
 
 .button1:hover{
 color: #000;
-box-shadow: 0 0 5px #d400ff,
-          0 0 25px #d400ff,
-          0 0 50px #d400ff,
-          0 0 200px #d400ff;
+box-shadow: 0 0 .5px #d400ff,
+          0 0 2.5px #d400ff,
+          0 0 5px #d400ff,
+          0 0 20px #d400ff;
 -webkit-box-reflect:below 1px linear-gradient(transition, #0005)            
 }
 
@@ -367,7 +370,8 @@ box-shadow: 0 0 5px #d400ff,
 
 #resume h1 {
   font-family: 'Major Mono Display', monospace;
-  padding-top: 50px;
+  padding-top: 40px;
+  margin-top: 10px;
   font-size: 3vmax;
 }
 
@@ -474,6 +478,7 @@ box-shadow: 0 0 5px #d400ff,
   font-family: 'Major Mono Display', monospace;
   padding-top: 5vh;
   font-size: 3vmax;
+  margin-top: 0;
 }
 
 #projects .row {
@@ -575,6 +580,7 @@ h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5vmax;
   padding: 1vmax;
+  margin-bottom: 0;
 }
 
 .cont-info {
@@ -712,6 +718,10 @@ transform:scale(1.4) ;
 
   #about .skill-btns {
     flex-direction: column;
+  }
+
+  #about .button-p1 {
+    padding-bottom: 0;
   }
 
   .scroll-btn {

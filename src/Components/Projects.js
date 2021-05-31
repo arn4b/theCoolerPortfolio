@@ -15,7 +15,7 @@ class Projects extends Component {
             <section id="projects">
                 <h1>My Work</h1>
                 <div className="row">
-                    <div className="double-column skill">
+                    <div className="double-column skill" data-aos="fade-right" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://github.com/arn4b/instagram-clone">
                                 <img src={insta} className="pimg" />
@@ -29,7 +29,7 @@ class Projects extends Component {
                         </div>
                     </div>
 
-                    <div className="double-column skill">
+                    <div className="double-column skill" data-aos="fade-left" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://github.com/arn4b/superchat">
                                 <img src={firechat} className="pimg" />
@@ -43,7 +43,7 @@ class Projects extends Component {
                         </div>
                     </div>
                     
-                    <div className="double-column skill">
+                    <div className="double-column skill" data-aos="fade-right" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://github.com/arn4b/discord-bot-gen1">
                                 <img src={discord} className="pimg" />
@@ -57,7 +57,7 @@ class Projects extends Component {
                         </div>
                     </div>
 
-                    <div className="double-column skill">
+                    <div className="double-column skill" data-aos="fade-left" data-aos-duration="600">
                         <div className="container zoom">
                         <a href="https://github.com/arn4b/firepost">
                                 <img src={firepost} className="pimg" />
@@ -72,7 +72,7 @@ class Projects extends Component {
                     </div>
 
                     
-                    <div className="double-column skill">
+                    <div className="double-column skill" data-aos="fade-right" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://github.com/arn4b/autocomplete">
                                 <img src={electron} className="pimg" />
@@ -87,7 +87,7 @@ class Projects extends Component {
                     </div>
 
 
-                    <div className="double-column skill">
+                    <div className="double-column skill" data-aos="fade-left" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://github.com/arn4b/autocomplete">
                                 <img src={auto} className="pimg" />
@@ -102,7 +102,7 @@ class Projects extends Component {
                     </div>
 
 
-                    <div className="double-column skill">
+                    <div className="double-column skill" data-aos="fade-up" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://tksmediaagency.pages.dev">
                                 <img src={tksmedia} className="pimg" />
@@ -122,7 +122,7 @@ class Projects extends Component {
                 <h1>Projects I've collaborated on</h1>
 
                 <div className="row">
-                    <div className="double-column skill">
+                    <div className="double-column skill" data-aos="fade-right" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://gfgkiit.co">
                                 <img src={gfg} className="pimg" />
@@ -137,8 +137,8 @@ class Projects extends Component {
                     </div>
 
 
-                    <div className="double-column skill">
-                        <div className="container zoom">
+                    <div className="double-column skill" data-aos="fade-left" data-aos-duration="600">
+                        <div className="container zoom" >
                             <a href="https://codeinturns.tech">
                                 <img src={cit} className="pimg" />
                                 <div className="middle">
@@ -152,7 +152,7 @@ class Projects extends Component {
                     </div>
 
 
-                    <div className="double-column skill">
+                    <div className="double-column skill" data-aos="fade-up" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://msackiit.tech">
                                 <img src={msac} className="pimg" />

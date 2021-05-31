@@ -1,5 +1,9 @@
-import React, { Component} from 'react'
+import React, { Component, useEffect} from 'react'
 import profilepic from '../images/profilepic.jpeg'
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 class About extends Component {
     render() {
@@ -9,7 +13,7 @@ class About extends Component {
                 <h1>About Me</h1>
                 <div className="row">
 
-                    <div className="double-column">
+                    <div className="double-column" data-aos="fade-right" data-aos-duration="1500">
                         <p>I'm a Junior at Kalinga Institute of Industrial Technology, Bhubaneshwar, majoring in Computer Science and System Engineering.<br/><br/>
                             I have over 1 and a half years of experience in developing mobile-first fully responsive frontend sites using ReactJS, and multiple frontend 
                             frameworks like Bootstrap, MaterialUI, etc. as well as developing mobile apps for both Android and iOS using React Native. I have worked on multiple projects using React, 
@@ -18,7 +22,7 @@ class About extends Component {
                             Frontend projects, Native mobile apps and UI designing.</p><br/>
                     </div>
 
-                    <div className="column">
+                    <div className="column" data-aos="fade-left" data-aos-duration="1500">
                         <img className="profilepic" src={profilepic}/>
                         <p className="button-p">
                             <a href="https://drive.google.com/file/d/1vrIq3-ZjOXmfHcn9i91R8wj7vBhJNY2I/view?usp=sharing"   target="_blank" className="button"><i class="fas fa-download"></i> Get my Resume</a>
@@ -29,7 +33,7 @@ class About extends Component {
                 <h1 style={{paddingTop: 0, marginTop: 0}}>Socials</h1>
 
                 <div className="row skill-btns">
-                    <div className="double-column skill">
+                    <div className="double-column skill" data-aos="fade-up" data-aos-duration="1500">
                         <h3>
                             Check out my repos at
                         </h3>
@@ -38,7 +42,7 @@ class About extends Component {
                         </p>
                     </div>
 
-                    <div className="double-column skill">
+                    <div className="double-column skill" data-aos="fade-up" data-aos-duration="1500">
                         <h3>
                             Connect with me on
                         </h3>
@@ -47,7 +51,7 @@ class About extends Component {
                         </p>
                     </div>
 
-                    <div className="double-column skill">
+                    <div className="double-column skill" data-aos="fade-up" data-aos-duration="1500">
                         <h3>
                             Follow me on
                         </h3>

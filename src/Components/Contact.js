@@ -10,7 +10,7 @@ class Contact extends Component {
                     Have a cool idea? Let's collaborate!
                 </p>
                 <div className="row">
-                    <div className="column">
+                    <div className="column" data-aos="fade-right" data-aos-duration="1200">
                         <form
                         action="https://formspree.io/f/xeqpbwja"
                         method="POST"
@@ -39,7 +39,7 @@ class Contact extends Component {
                         </form>
                     </div>
 
-                    <div className="column">
+                    <div className="column" data-aos="fade-left" data-aos-duration="1200">
                         <h2 className="cont-info">
                             Arnab Chatterjee<br/>
                             Bhubaneshwar, Odisha<br/>

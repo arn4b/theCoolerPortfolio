@@ -42,15 +42,14 @@ class Contact extends Component {
                     <div className="column" data-aos="fade-left" data-aos-duration="1200">
                         <h2 className="cont-info">
                             Arnab Chatterjee<br/>
-                            Bhubaneshwar, Odisha<br/>
                             <a href="mailto:arnabc1701@gmail.com">arnabc1701@gmail.com</a>  <br/>
                         </h2>
 
                         <div className="socials">
-                            <div><a href = "https://www.facebook.com/profile.php?id=100037306634656"><i class="fab fa-facebook-square"></i></a></div>
-                            <div><a href = "https://twitter.com/cyanide_arnab"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></div>
-                            <div><a href = "https://instagram.com/_arn4b_"><i class="fab fa-instagram" aria-hidden="true"></i></a></div>
-                            <div><a href = "https://www.linkedin.com/in/arnab-chatterjee-3944341a0/"><i class="fab fa-linkedin" aria-hidden="true"></i></a></div>
+                            <div><a href = "https://www.facebook.com/profile.php?id=100037306634656" target="_blank"><i class="fab fa-facebook-square"></i></a></div>
+                            <div><a href = "https://twitter.com/cyanide_arnab" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></div>
+                            <div><a href = "https://instagram.com/_arn4b_" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></div>
+                            <div><a href = "https://www.linkedin.com/in/arnab-chatterjee-3944341a0/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></div>
                         </div>
                     </div>
 

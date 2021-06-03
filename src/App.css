@@ -296,6 +296,7 @@ header .scroll-btn{
   max-width: 100%;
   width: 320px;
   margin: 40px;
+  box-shadow: 1px 1px 10px;
 }
 
 
@@ -626,6 +627,14 @@ a {
   max-width: 25%;
 }
 
+#contact button:hover {
+  box-shadow: 0 0 .5px #d400ff,
+          0 0 2.5px #d400ff,
+          0 0 5px #d400ff,
+          0 0 20px #d400ff;
+-webkit-box-reflect:below 1px linear-gradient(transition, #0005)
+}
+
 #contact .socials {
   font-size: 4vmax;
   text-align: right;
@@ -661,7 +670,7 @@ a {
 background-clip: text;
 -webkit-text-fill-color: transparent;
 transition: transform 0.5s;
-transform:scale(1.4) ;
+transform:scale(1.1) ;
 }
 
 #contact .fa-linkedin:hover {

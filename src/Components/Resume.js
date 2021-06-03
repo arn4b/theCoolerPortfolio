@@ -17,14 +17,14 @@ class Resume extends Component {
                         <span style={{color: "#61dafb"}}>ReactJS</span>&nbsp;
                             and
                         <span>
-                            <img className="icon-img" src="https://download.logo.wine/logo/Bootstrap_(front-end_framework)/Bootstrap_(front-end_framework)-Logo.wine.png"/>
+                            <img className="icon-img" src="https://miro.medium.com/max/5244/1*ZSIihImW6DeVOYwUL-ghfQ.png"/>
                         </span>
-                        <span style={{color: "#553c7b"}}>Bootstrap</span> .
+                        <span style={{color: "#61dafb"}}>React-Bootstrap</span> .
                         <br/>
                         <span>
                             <img className="icon-img" src="https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png"/>
                         </span>
-                        <span style={{color: "#764abc"}}>Redux</span>
+                        <span style={{color: "#764abc"}}>Redux Toolkit</span>
                         &nbsp; is my goto tool for state management.
                         <br/>
                         For developing backends, I use 

@@ -17,7 +17,7 @@ class Projects extends Component {
                 <div className="row">
                     <div className="double-column skill" data-aos="fade-right" data-aos-duration="600">
                         <div className="container zoom">
-                            <a href="https://github.com/arn4b/instagram-clone">
+                            <a href="https://github.com/arn4b/instagram-clone" target="_blank">
                                 <img src={insta} className="pimg" />
                                 <div className="middle">
                                 

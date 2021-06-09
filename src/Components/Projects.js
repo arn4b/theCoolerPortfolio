@@ -9,6 +9,7 @@ import auto from '../images/auto.jpg'
 import electron from '../images/electron.jpg'
 import tksmedia from '../images/tksmedia.png'
 import msac from '../images/msac.png'
+import hackclub from '../images/hackclub.png'
 class Projects extends Component {
     render() {
         return(
@@ -159,6 +160,20 @@ class Projects extends Component {
                                 <div className="middle">
                                 
                                 <div className="text">MSAC KIIT Official Website</div>
+                                <div className="text"><i class="fas fa-external-link-alt"></i></div>
+                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="double-column skill" data-aos="fade-up" data-aos-duration="600">
+                        <div className="container zoom">
+                            <a href="https://kiit.hackclub.com">
+                                <img src={hackclub} className="pimg" />
+                                <div className="middle">
+                                
+                                <div className="text">KIIT Hackclub Official Website</div>
                                 <div className="text"><i class="fas fa-external-link-alt"></i></div>
                                 
                                 </div>

@@ -25,7 +25,7 @@ class Landing extends Component {
                 </nav>
 
 
-                <div className="landing-text" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-sine">>
+                <div className="landing-text" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                     <h1>Hello, <br/>I'm Arnab Chatterjee.  </h1><br/>
                     <hr/>
                     <h2>

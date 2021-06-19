@@ -5,6 +5,7 @@ import Resume from './Components/Resume';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Preloader from './Components/Preloader';
+import Experience from './Components/Experience'
 import {useState, useEffect} from 'react';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
     <div className="App">
       <Landing />
       <About />
+      <Experience />
       <Resume />
       <Projects />
       <Contact />

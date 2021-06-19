@@ -378,12 +378,68 @@ box-shadow: 0 0 .5px #d400ff,
 -webkit-box-reflect:below 1px linear-gradient(transition, #0005)            
 }
 
+/* EXPERIENCE SECTION */
+
+#experience {
+  font-family: 'Montserrat', monospace;
+  background: #000;
+  color: white;
+  height: 100%;
+  position:relative;
+  font-size: 2.5vmax !important;
+  padding: 0 2vmax 1vmax;
+  font-weight: 600;
+}
+
+#experience h1 {
+  font-family: 'Major Mono Display', monospace;
+  padding-top: 40px;
+  margin-top: 10px;
+  font-size: 3vmax;
+}
+
+#experience img {
+  display:flexbox;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  padding-left: 0px;
+  margin-top: 2vh;
+  max-width: 8vmax;
+  border-radius: 15px;
+  position: relative;
+  top: 3vh;
+}
+
+#experience span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5vmax;
+}
+
+#experience .icon-img {
+  display: inline-block;
+  position: relative;
+  max-height: 4.5vmax;
+  top: 1.25vmax;
+  border-radius: 0;
+}
+
+#experience .list {
+  text-align: left;
+  padding-left: 25vw;
+}
+
+
 /*RESUME SECTION*/
 
 #resume {
   font-family: 'Montserrat', monospace;
-  /* background-color: #d400ff; */
-  color: #fff;
+  background: #ffffff;
+  color: #000;
+  position:relative;
+  font-size: 2.5vmax !important;
+  padding: 0 2vmax 1vmax;
+  font-weight: 600;
 }
 
 #resume h1 {
@@ -391,30 +447,6 @@ box-shadow: 0 0 .5px #d400ff,
   padding-top: 40px;
   margin-top: 10px;
   font-size: 3vmax;
-}
-
-#resume .row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;;
-}
-
-#resume .column {
-  display: flexbox;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  color: #000;
-  padding-left: 30px;
-}
-
-#resume .double-column {
-  display: flexbox;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 2;
-  padding-left: 40px;
 }
 
 #resume img {
@@ -430,59 +462,17 @@ box-shadow: 0 0 .5px #d400ff,
   top: 3vh;
 }
 
-
-#resume h2 {
-  text-transform: uppercase;
-  font-size: 2vmax;
-  margin-top: 30px;
-  margin-right: 50px;
-  text-align: right;
-}
-
-#resume h3 {
-  text-align: left;
-  font-size: 2vmax;
-}
-
-#resume .skill {
-  text-align: center;
-  padding-left: 0%;
-  font-size: 2.5vmax;
-}
-
-#resume .skill1 {
-  text-align: center;
-  font-size: 1.75vmax;
-}
-
-
-#resume h4 {
-  text-align: left;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.5vmax;
-  margin-top: 0px;
-  margin-bottom: 10px;
-}
-
 #resume span {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5vmax;
 }
+
 #resume .icon-img {
   display: inline-block;
   position: relative;
   max-height: 4.5vmax;
   top: 1.25vmax;
   border-radius: 0;
-}
-
-#resume .tech {
-  background: #ffffff;
-  color: #000;
-  position:relative;
-  font-size: 2.5vmax !important;
-  padding: 0 2vmax 1vmax;
-  font-weight: 600;
 }
 
 /*PROJECTS SECTION*/
@@ -773,6 +763,10 @@ transform:scale(1.1) ;
     max-width: 60%;
     position: relative;
     left: 19vw !important;
+  }
+
+  #experience .list {
+    padding-left: 5vw;
   }
 }
 

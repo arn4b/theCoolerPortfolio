@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import react from '../images/logos/react.png'
 import materialize from '../images/logos/materialize.png'
+import rbs from '../images/r-bs.png'
 import node from '../images/logos/node.png'
 
 class Resume extends Component {
@@ -10,16 +11,44 @@ class Resume extends Component {
                 <div className="tech">
                 <h1>Tech I can work with</h1>
                     <div data-aos="fade-up" data-aos-duration="1200">
-                        <p>I love to work on frontend using &nbsp;
+                        <p>For making my web apps, I use <br/>
                         <span >
                             <img className="icon-img" src={react}/>
                         </span>
-                        <span style={{color: "#61dafb"}}>ReactJS</span>&nbsp;
-                            and
+                        <span style={{color: "#61dafb"}}>React</span>&nbsp;
+                            and&nbsp;
                         <span>
-                            <img className="icon-img" src="https://miro.medium.com/max/5244/1*ZSIihImW6DeVOYwUL-ghfQ.png"/>
+                            <img className="icon-img" src="https://cdn.worldvectorlogo.com/logos/next-js.svg"/>
+                        </span>&nbsp;
+                        <span style={{color: "#000000"}}>Next.JS.</span><br/>
+                        To transform my designs from figment to 
+                        <span>
+                            <img className="icon-img" src="https://brandeps.com/logo-download/F/Figma-logo-vector-01.svg"/>
                         </span>
-                        <span style={{color: "#61dafb"}}>React-Bootstrap</span> .
+                        <span style={{color: "#f24e1e"}}>Figma, </span>
+                        &nbsp;
+                        and to transform the designs to code, I use 
+                        <span>
+                            <img className="icon-img" src="https://material-ui.com/static/logo.png"/>
+                        </span>
+                        <span style={{color: "#0284ca"}}>Material UI, </span>
+                        &nbsp;
+                        <span>
+                            <img className="icon-img" src={rbs}/>
+                        </span>
+                        <span style={{color: "#3bd8f5"}}>React-Bootstrap, </span>
+                        <br/>
+                        <span>
+                            <img className="icon-img" src="https://images.ctfassets.net/qcrphhesuv4n/6cZj9wicrfq7gQwyYy7RcI/9ec870532475e09f72bb1c7143a4564b/1_p1TndLk3UsGPBsM7qHPZIw.png?w=294&h=175&q=50&fm=png"/>
+                        </span>
+                        <span style={{color: "#cf6daa"}}>Styled Components</span>&nbsp;
+                        and&nbsp;
+                        <span>
+                            <img className="icon-img" src="https://symbols.getvecta.com/stencil_97/3_tailwind-css-icon.43c02f69bf.png"/>
+                        </span>
+                        <span style={{color: "#00758f"}}>Tailwind CSS</span>
+                        &nbsp;
+                        as per the project.
                         <br/>
                         <span>
                             <img className="icon-img" src="https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png"/>
@@ -57,12 +86,11 @@ class Resume extends Component {
                             <img className="icon-img" src="https://www.cloudflare.com/img/cf-facebook-card.png"/>
                         </span>
                         <span style={{color: "#f48120"}}>Cloudflare Pages (Static)</span>&nbsp;
-                        as they give smooth integration and CI/CD with &nbsp;
+                        as they give smooth integration with &nbsp;
                         <span>
                             <img className="icon-img" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"/>
                         </span>
                         <span style={{color: "#f34f29"}}>Git</span> .
-                        <br/>
 
                         </p>
                     </div>

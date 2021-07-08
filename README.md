@@ -2,7 +2,7 @@
 
 Repository for Personal Portfolio Website - just better than the last one.
 
-This website has been created using ReactJS and CSS, and deployed on Heroku
+This website has been created using ReactJS and CSS, and deployed on Cloudflare Pages
 
-**The deployed app can be found on https://arn4b.herokuapp.com**
+**The deployed app can be found on https://arn4b.co**
 

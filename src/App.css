@@ -270,7 +270,7 @@ header .scroll-btn{
 /*ABOUT ME SECTION*/
 #about {
   background-color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 #about h1 {
@@ -412,7 +412,7 @@ box-shadow: 0 0 .5px #d400ff,
 }
 
 #experience span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 2.5vmax;
 }
 
@@ -463,7 +463,7 @@ box-shadow: 0 0 .5px #d400ff,
 }
 
 #resume span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 2.5vmax;
 }
 
@@ -536,7 +536,7 @@ box-shadow: 0 0 .5px #d400ff,
 }
 
 #projects .text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 2.25vmax;
   text-decoration: none;
   color: #fff;
@@ -566,7 +566,7 @@ box-shadow: 0 0 .5px #d400ff,
 }
 
 #contact p, form{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 2.5vmax;
   text-align: left;
   padding-left: 4vw;
@@ -580,12 +580,12 @@ input, textarea {
   border-radius: 0.8vmax;
   background-color: #000;
   color: #d400ff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.5vmax;
 }
 
 h2{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.5vmax;
   padding: 1vmax;
   margin-bottom: 0;
@@ -626,7 +626,7 @@ a {
   text-decoration: none;
   margin: 4px 0;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.5vmax;
   border-radius: 0.8vmax;
   width: 100%;

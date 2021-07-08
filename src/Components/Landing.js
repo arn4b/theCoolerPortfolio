@@ -30,17 +30,19 @@ class Landing extends Component {
                     <h1>Hello, <br/>I'm Arnab Chatterjee.  </h1><br/>
                     <hr/>
                     <h2>
-                    <span
+                    <h3
                         className="typer"
                         id="main"
                         data-words="UI / UX, Mobile First, Frontend Developer."
                         data-delay="100"
                         data-colors="#fff"
                         data-loop="1">
-                    </span>
+                    </h3>
                     <span  className="cursor"  data-owner="main"></span>
                     </h2>
                 </div>
+
+                <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
                 <div>
                     <span className="scroll-btn">
                         <a href="#about">

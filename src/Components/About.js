@@ -14,12 +14,10 @@ class About extends Component {
                 <div className="row">
 
                     <div className="double-column" data-aos="fade-right" data-aos-duration="1500">
-                        <p>I'm a Junior at Kalinga Institute of Industrial Technology, Bhubaneshwar, majoring in Computer Science and System Engineering.<br/><br/>
+                        <p style={{lineHeight: '1.5'}}>I'm a Pre-Final Year Undergraduate at Kalinga Institute of Industrial Technology, Bhubaneshwar, majoring in Computer Science and System Engineering.<br/><br/>
                             I have over 1 and a half years of experience in developing mobile-first fully responsive frontend sites using ReactJS, and multiple frontend 
                             frameworks like Bootstrap, MaterialUI, etc. as well as developing mobile apps for both Android and iOS using React Native. I have worked on multiple projects using React, 
-                            NodeJS, Firebase and multiple other JS frameworks. <br/><br/>Currently, I'm working as a Web Developer at 
-                            GFG KIIT Chapter, Microsoft Student Ambassador Community, Hackclub and Mozilla BBSR. I am open to work and collaborate on 
-                            Frontend projects, Native mobile apps and UI designing.</p><br/>
+                            NodeJS, Firebase and multiple other JS frameworks. <br/><br/></p><br/>
                     </div>
 
                     <div className="column" data-aos="fade-left" data-aos-duration="1500">

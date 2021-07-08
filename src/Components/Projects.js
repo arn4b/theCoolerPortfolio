@@ -10,6 +10,7 @@ import electron from '../images/electron.jpg'
 import tksmedia from '../images/tksmedia.png'
 import msac from '../images/msac.png'
 import hackclub from '../images/hackclub.png'
+import daedarus from '../images/daedarus.png'
 
 class Projects extends Component {
     render() {
@@ -181,6 +182,22 @@ class Projects extends Component {
                             </a>
                         </div>
                     </div>
+
+                    
+                    <div className="double-column skill" data-aos="fade-up" data-aos-duration="600">
+                        <div className="container zoom">
+                            <a href="https://daedarus.co">
+                                <img src={daedarus} className="pimg" />
+                                <div className="middle">
+                                
+                                <div className="text">DaeDarus' hack</div>
+                                <div className="text"><i class="fas fa-external-link-alt"></i></div>
+                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
                 </div>
                 
             </section>

@@ -800,6 +800,11 @@ transform:scale(1.1) ;
   #experience .list {
     padding-left: 5vw;
   }
+
+  header .landing-text h1 {
+    padding: 25vh 0 0;
+    font-size: 5vmax;
+  }
 }
 
 @media (min-width: 640px) { body {font-size:1rem;} } 

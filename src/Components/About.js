@@ -23,7 +23,7 @@ class About extends Component {
                     <div className="column" data-aos="fade-left" data-aos-duration="1500">
                         <img className="profilepic" src={profilepic}/>
                         <p className="button-p">
-                            <a href="https://drive.google.com/file/d/1vrIq3-ZjOXmfHcn9i91R8wj7vBhJNY2I/view?usp=sharing"   target="_blank" className="button"><i class="fas fa-download"></i> Get my Resume</a>
+                            <a href="https://drive.google.com/file/d/1K-6QXiHUM4kcDQyD6TVEManZbl7uUtrx/view?usp=sharing"   target="_blank" className="button"><i class="fas fa-download"></i> Get my Resume</a>
                         </p>
                     </div>
                 </div>

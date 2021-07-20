@@ -117,6 +117,7 @@ header {
   width: 100%;
   text-align: center;
   overflow: hidden;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 header::before{
@@ -127,11 +128,12 @@ header::before{
 
 header .landing-text h1 {
   font-family: 'Major Mono Display', monospace;
-  font-size: 5vmax;
+  font-size: 6vmax;
   color:#fff;
-  text-align: left;
+  font-weight: 600;
+  /* text-align: left; */
   display: inline-block;
-  padding: 25vh 10vw 0 10vw;
+  padding: 25vh 10vw 0;
   letter-spacing: 0px;
   /* line-height: 1.1;
   -webkit-text-fill-color: transparent; 
@@ -139,6 +141,10 @@ header .landing-text h1 {
   -webkit-text-stroke-color: white; */
 }
 
+header .landing-text h3 {
+  color: #fff;
+  font-family: 'Major Mono Display', sans-serif;
+}
 
 hr {
   width: 1000px;
@@ -267,10 +273,22 @@ header .scroll-btn{
   animation: ani-mouse 2.5s linear infinite;
 }
 
+.myVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+}
+
 /*ABOUT ME SECTION*/
 #about {
-  background-color: #fff;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DM Sans', monospace;
+  background: #fff;
+  height: 100%;
+  position:relative;
 }
 
 #about h1 {
@@ -312,7 +330,6 @@ header .scroll-btn{
   max-width: 100%;
   width: 320px;
   margin: 40px;
-  box-shadow: 1px 1px 10px;
 }
 
 
@@ -381,14 +398,14 @@ box-shadow: 0 0 .5px #d400ff,
 /* EXPERIENCE SECTION */
 
 #experience {
-  font-family: 'Montserrat', monospace;
-  background: #000;
+  font-family: 'DM Sans', monospace;
+  background: rgba(0, 0, 0, 0.6);
   color: white;
   height: 100%;
   position:relative;
   font-size: 2.5vmax !important;
-  padding: 0 2vmax 1vmax;
-  font-weight: 600;
+  padding: 0 3rem 1vmax;
+  font-weight: 500;
 }
 
 #experience h1 {
@@ -433,13 +450,13 @@ box-shadow: 0 0 .5px #d400ff,
 /*RESUME SECTION*/
 
 #resume {
-  font-family: 'Montserrat', monospace;
+  font-family: 'DM Sans', monospace;
   background: #ffffff;
   color: #000;
   position:relative;
   font-size: 2.5vmax !important;
   padding: 0 2vmax 1vmax;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 #resume h1 {
@@ -478,15 +495,21 @@ box-shadow: 0 0 .5px #d400ff,
 /*PROJECTS SECTION*/
 
 #projects {
-  color: #fff;
-  background: #1b1b1b;
+  font-family: 'Montserrat', monospace;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  height: 100%;
+  position:relative;
+  font-size: 2.5vmax !important;
+  padding: 0 2vmax 1vmax;
+  font-weight: 600;
 }
 
 #projects h1 {
   font-family: 'Major Mono Display', monospace;
   padding-top: 5vh;
   font-size: 3vmax;
-  margin-top: 0;
+  margin-top: 0.5rem;
 }
 
 #projects .row {
@@ -556,13 +579,18 @@ box-shadow: 0 0 .5px #d400ff,
 
 #contact {
   background: #fff;
-  color: #000;
+  height: 100%;
+  position:relative;
+  font-size: 2.5vmax !important;
+  /* padding: 0 2vmax 1vmax; */
+  font-weight: 500;
 }
 
 #contact h1 {
   font-family: 'Major Mono Display', monospace;
   padding-top: 50px;
   font-size: 3vmax;
+  margin-top: 0.5rem;
 }
 
 #contact p, form{
@@ -714,6 +742,10 @@ transform:scale(1.1) ;
 }
 
 @media screen and (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+
   .loader-svg {
     width: 375px;
   }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ParticlesBg from "particles-bg";
+import videoplayback from '../images/videoplayback.mp4'
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -11,7 +12,10 @@ class Landing extends Component {
 
         return(
             <header id="home">
-                <ParticlesBg color="#d400ff" type="cobweb" bg = {true} />
+                {/* <ParticlesBg color="#d400ff" type="cobweb" bg = {true} /> */}
+                <div className="fuller"></div>
+                <video src={videoplayback} autoPlay loop playsinline muted className="myVideo"></video>
+                
 
                 <nav className="navbar">
 
@@ -27,19 +31,10 @@ class Landing extends Component {
 
 
                 <div className="landing-text" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-sine">
-                    <h1>Hello, <br/>I'm Arnab Chatterjee.  </h1><br/>
+                    <h1>Hello, I'm<br/> Arnab Chatterjee.  </h1><br/>
                     <hr/>
-                    <h2>
-                    <h3
-                        className="typer"
-                        id="main"
-                        data-words="UI / UX, Mobile First, Frontend Developer."
-                        data-delay="100"
-                        data-colors="#fff"
-                        data-loop="1">
-                    </h3>
+                    <h3>Frontend | Android | React</h3>
                     <span  className="cursor"  data-owner="main"></span>
-                    </h2>
                 </div>
 
                 <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>

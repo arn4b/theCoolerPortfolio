@@ -11,6 +11,7 @@ import tksmedia from '../images/tksmedia.png'
 import msac from '../images/msac.png'
 import hackclub from '../images/hackclub.png'
 import daedarus from '../images/daedarus.png'
+import mauka from '../images/mauka.png'
 
 class Projects extends Component {
     render() {
@@ -19,6 +20,20 @@ class Projects extends Component {
                 <h1>My Work</h1>
                 <div className="row">
                     <div className="double-column skill" data-aos="fade-right" data-aos-duration="600">
+                        <div className="container zoom">
+                            <a href="https://maukaeducation.com" target="_blank">
+                                <img src={mauka} className="pimg" />
+                                <div className="middle">
+                                
+                                <div className="text">Mauka Education</div>
+                                <div className="text"><i class="fas fa-external-link-alt"></i></div>
+                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="double-column skill" data-aos="fade-left" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://github.com/arn4b/instagram-clone" target="_blank">
                                 <img src={insta} className="pimg" />
@@ -32,7 +47,7 @@ class Projects extends Component {
                         </div>
                     </div>
 
-                    <div className="double-column skill" data-aos="fade-left" data-aos-duration="600">
+                    <div className="double-column skill" data-aos="fade-right" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://github.com/arn4b/superchat">
                                 <img src={firechat} className="pimg" />
@@ -46,7 +61,7 @@ class Projects extends Component {
                         </div>
                     </div>
                     
-                    <div className="double-column skill" data-aos="fade-right" data-aos-duration="600">
+                    <div className="double-column skill" data-aos="fade-left" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://github.com/arn4b/discord-bot-gen1">
                                 <img src={discord} className="pimg" />
@@ -60,7 +75,7 @@ class Projects extends Component {
                         </div>
                     </div>
 
-                    <div className="double-column skill" data-aos="fade-left" data-aos-duration="600">
+                    <div className="double-column skill" data-aos="fade-right" data-aos-duration="600">
                         <div className="container zoom">
                         <a href="https://github.com/arn4b/firepost">
                                 <img src={firepost} className="pimg" />
@@ -75,7 +90,7 @@ class Projects extends Component {
                     </div>
 
                     
-                    <div className="double-column skill" data-aos="fade-right" data-aos-duration="600">
+                    <div className="double-column skill" data-aos="fade-left" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://github.com/arn4b/autocomplete">
                                 <img src={electron} className="pimg" />
@@ -90,7 +105,7 @@ class Projects extends Component {
                     </div>
 
 
-                    <div className="double-column skill" data-aos="fade-left" data-aos-duration="600">
+                    <div className="double-column skill" data-aos="fade-right" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://github.com/arn4b/autocomplete">
                                 <img src={auto} className="pimg" />
@@ -105,7 +120,7 @@ class Projects extends Component {
                     </div>
 
 
-                    <div className="double-column skill" data-aos="fade-up" data-aos-duration="600">
+                    <div className="double-column skill" data-aos="fade-left" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://tksmediaagency.pages.dev">
                                 <img src={tksmedia} className="pimg" />

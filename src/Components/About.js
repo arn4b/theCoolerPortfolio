@@ -27,7 +27,7 @@ class About extends Component {
                         </p>
                     </div>
                 </div>
-
+{/* 
                 <h1 style={{paddingTop: 0, marginTop: 0}}>Socials</h1>
 
                 <div className="row skill-btns">
@@ -57,7 +57,7 @@ class About extends Component {
                             <a href="https://instagram.com/_arn4b_"  target="_blank"  className="button1"><i className="fab fa-instagram"></i>&nbsp; Instagram</a>
                         </p>
                     </div>
-                </div>
+                </div> */}
             </section>
         );
     }

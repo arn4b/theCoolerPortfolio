@@ -37,7 +37,7 @@ class Resume extends Component {
                             <img className="icon-img" src={rbs}/>
                         </span>
                         <span style={{color: "#3bd8f5"}}>React-Bootstrap, </span>
-                        <br/>
+                        
                         <span>
                             <img className="icon-img" src="https://images.ctfassets.net/qcrphhesuv4n/6cZj9wicrfq7gQwyYy7RcI/9ec870532475e09f72bb1c7143a4564b/1_p1TndLk3UsGPBsM7qHPZIw.png?w=294&h=175&q=50&fm=png"/>
                         </span>

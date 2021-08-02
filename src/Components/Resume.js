@@ -23,7 +23,7 @@ class Resume extends Component {
                         <span style={{color: "#000000"}}>Next.JS.</span><br/>
                         To transform my designs from figment to 
                         <span>
-                            <img className="icon-img" src="https://brandeps.com/logo-download/F/Figma-logo-vector-01.svg"/>
+                            <img className="icon-img" src="https://cdn.sanity.io/images/599r6htc/production/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=670&h=670&q=75&fit=max&auto=format"/>
                         </span>
                         <span style={{color: "#f24e1e"}}>Figma, </span>
                         &nbsp;

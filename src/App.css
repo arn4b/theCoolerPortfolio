@@ -698,13 +698,13 @@ a {
 #contact .socials .fa-facebook-square:hover {
   color: #4267B2;
   transition: transform 0.5s;
-  transform:scale(1.4) ;
+  transform:scale(1.2) ;
 }
 
 #contact .fa-twitter-square:hover {
   color: #1DA1F2;
   transition: transform 0.5s;
-  transform:scale(1.4) ;
+  transform:scale(1.2) ;
 }
 
 #contact .fa-instagram:hover {
@@ -720,7 +720,12 @@ transform:scale(1.1) ;
 #contact .fa-linkedin:hover {
   color: #0072b1;
   transition: transform 0.5s;
-  transform:scale(1.4) ;
+  transform:scale(1.2) ;
+}
+
+#contact .fa-github:hover {
+  transition: transform 0.5s;
+  transform:scale(1.2) ;
 }
 
 #contact .footer{

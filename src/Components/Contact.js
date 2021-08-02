@@ -48,8 +48,9 @@ class Contact extends Component {
                         <div className="socials">
                             <div><a href = "https://www.facebook.com/profile.php?id=100037306634656" target="_blank"><i class="fab fa-facebook-square"></i></a></div>
                             <div><a href = "https://twitter.com/cyanide_arnab" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></div>
-                            <div><a href = "https://instagram.com/_arn4b_" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></div>
+                            {/* <div><a href = "https://instagram.com/_arn4b_" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></div> */}
                             <div><a href = "https://www.linkedin.com/in/arnab-chatterjee-3944341a0/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></div>
+                            <div><a href = "https://www.github.com/arn4b" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a></div>
                         </div>
                     </div>
 

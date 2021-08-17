@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
-import insta from '../images/instaclone.jpg'
+import insta from '../images/instaclone.png'
 import firechat from '../images/firechat.png'
-import discord from '../images/discordbot.jpg'
+import discord from '../images/discordbot.png'
 import firepost from '../images/firepost.png'
 import gfg from '../images/GFGKIITWebsitePoster.0c3aae94.jpg'
 import cit from '../images/cit.jpg'
@@ -35,6 +35,20 @@ class Projects extends Component {
 
                     <div className="double-column skill" data-aos="fade-left" data-aos-duration="600">
                         <div className="container zoom">
+                        <a href="https://github.com/arn4b/firepost">
+                                <img src={firepost} className="pimg" />
+                                <div className="middle">
+                                
+                                <div className="text">FirePost <br/> Social Media app w/ ReactJS &amp; Firebase.</div>
+                                <div className="text"><i class="fab fa-github"></i></div>
+                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="double-column skill" data-aos="fade-right" data-aos-duration="600">
+                        <div className="container zoom">
                             <a href="https://github.com/arn4b/instagram-clone" target="_blank">
                                 <img src={insta} className="pimg" />
                                 <div className="middle">
@@ -47,7 +61,7 @@ class Projects extends Component {
                         </div>
                     </div>
 
-                    <div className="double-column skill" data-aos="fade-right" data-aos-duration="600">
+                    <div className="double-column skill" data-aos="fade-left" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://github.com/arn4b/superchat">
                                 <img src={firechat} className="pimg" />
@@ -61,27 +75,13 @@ class Projects extends Component {
                         </div>
                     </div>
                     
-                    <div className="double-column skill" data-aos="fade-left" data-aos-duration="600">
+                    <div className="double-column skill" data-aos="fade-right" data-aos-duration="600">
                         <div className="container zoom">
                             <a href="https://github.com/arn4b/discord-bot-gen1">
                                 <img src={discord} className="pimg" />
                                 <div className="middle">
                                 
                                 <div className="text">Discord User and Content Moderation Bot</div>
-                                <div className="text"><i class="fab fa-github"></i></div>
-                                
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className="double-column skill" data-aos="fade-right" data-aos-duration="600">
-                        <div className="container zoom">
-                        <a href="https://github.com/arn4b/firepost">
-                                <img src={firepost} className="pimg" />
-                                <div className="middle">
-                                
-                                <div className="text">FirePost <br/> Social Media app w/ ReactJS &amp; Firebase.</div>
                                 <div className="text"><i class="fab fa-github"></i></div>
                                 
                                 </div>
